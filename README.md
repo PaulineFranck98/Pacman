@@ -41,9 +41,13 @@ project-root
 
 ### 🛠️ Prerequisites
 
-You will need  __[Node.js](https://nodejs.org)__  `v16.0.0` or higher installed on your system.
+You will need  __[.NET SDK](https://dotnet.microsoft.com/en-us/)__  `v6.0` or higher installed on your system.
 
-You will also need to have a  __[Clerk](https://clerk.com/)__ account.
+You will also need __MonoGame__: To install it, run the following command:  
+```
+dotnet new install MonoGame.Templates.CSharp
+```
+__Rider / VSCode__ (or another IDE compatible with C# and .NET)
 
 ---
 
