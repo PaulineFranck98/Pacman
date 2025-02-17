@@ -75,62 +75,27 @@ Make sure `MonoGame` is installed by running:
 dotnet new --list | grep MonoGame
 ```
 
-#### 3. __Configure environment variables:__
+#### 3. __Starting the project:__
 
-Create a `.env` file in the root directory and add your MongoDB URL: 
+Normal run: 
 ```
-DATABASE_URL="<Your MongoDB URL>"
+dotnet run
 ```
 <br/>
 
-Create a `.env.local` file in the root directory and paste your [Clerk API Credentials](https://clerk.com/docs/deployments/clerk-environment-variables?_gl=1*124mxpw*_gcl_au*ODIyNjQ3MjAxLjE3MzEwNzU0MjMuNTI4NTEzNDQ5LjE3MzMyNDAzNjQuMTczMzI0MDM2NA..*_ga*MTQ2MDg4MDU0MS4xNzMxMDc1NDIz*_ga_1WMF5X234K*MTczMzQxMTIzNy45LjEuMTczMzQxMTMwNi4wLjAuMA..#clerk-publishable-and-secret-keys):
+Run with automatic reload: 
 ```
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="<Your Publishable Key>"
-CLERK_SECRET_KEY="<Your Clerk Secret Key>"
-```
-You can find those credential in the section "API keys" on your Clerk dashboard. 
-<br/>
-#### 4. __Set up Prisma:__
-
-Generate the Prisma client:
-```
-npx prisma generate
+dotnet watch run
 ```
 
-Apply Prisma migrations:
-```
-npx prisma db push
-```
+#### Upcoming features:
 
-You can also access a visual editor for the data in your database by running:
-```
-npx prisma studio
-```
+* Score system.
 
+* Advanced ghost behavior.
 
-#### 5. __Start the application:__
-```
-npm run dev
-```
+* Sounds and animations.
 
-The application should now be running at http://localhost:3000 🎉
-
-<br/>
-
----
-
-### 🎨 Design Overview
-
-#### Home Page
-![](/public/homepage-recipes.png)
-*The main page showcasing recipes in a carousel.*
-
-#### Recipe Details
-![](/public/recipe-detail.png)
-*Detailed view of a recipe, including ingredients, tools and options to add the recipe to favorites or download it as a PDF.*
-
-#### Blog section
-![](/public/blog-recipe.png)
-*Users can read, post and respond to articles.*
+* Improved map and interaction.
 
 
