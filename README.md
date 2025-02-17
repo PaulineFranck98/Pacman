@@ -27,14 +27,15 @@ __Pacman__ is a recreation of the famous Pacman game using __MonoGame__ and C#. 
 ### 📁 Folder Structure
 ```
 project-root
-├── app                 /* Entry point of the application */
-│   ├── api             /* API routes (CRUD for articles, comments, recipes) */
-│   ├── [features]      /* Feature-specific directories with corresponding pages */
-│   └── page.tsx        /* Entry point for the main page */
-├── prisma              /* Prisma ORM configuration and database schema */
-│   └── schema.prisma   /* Database models and structure */
-├── lib                 /* Utility functions and database configuration */
-└── components          /* Reusable components */ 
+├── Content           /* Graphics and audio resources */
+├── Core              /* Contains game logic */
+│ ├── Collision.cs    /* Collision management */
+│ ├── Enemies.cs      /* Enemy behavior management */
+│ ├── GameObject.cs   /* Game's objects management */
+│ ├── Player.cs       /* Pac-Man behaviour management */
+│ └── World.cs        /* Map management */
+├── Game1.cs          /* Game main class */
+└──  Program.cs       /* Application entry point */
 ```
 ---
 
