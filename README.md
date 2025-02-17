@@ -57,16 +57,23 @@ __Rider / VSCode__ (or another IDE compatible with C# and .NET)
 #### 1. __Clone the projet:__
    
 ```
-git clone https://github.com/PaulineFranck98/next-recipe-project-cda.git
+git clone https://github.com/PaulineFranck98/Pacman.git
 ```
 
 
-#### 2. __Install dependencies:__
+#### 2. __Check dependencies:__
 
+Make sure `.NET SDK` is installed by running:
 ```
-npm install
+dotnet --version
 ```
 
+<br/>
+
+Make sure `MonoGame` is installed by running:
+```
+dotnet new --list | grep MonoGame
+```
 
 #### 3. __Configure environment variables:__
 
