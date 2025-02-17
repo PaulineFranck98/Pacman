@@ -1,32 +1,26 @@
-![](/public/banner-lets-cook.png)
+![](/banner-pacman.png)
 
-<h1 align="center">Let's Cook</h1>
+<h1 align="center">PAC-MAN</h1>
 
 <br/>
 
 ### 📃 Description
 
-__Let's Cook__ is a recipe application built with __Next.js__.It allow users to:
+__Pacman__ is a recreation of the famous Pacman game using __MonoGame__ and C#. This project explores the features of the MonoGame engine for creating a 2D game.
 
-* Explore recipes and add them to favorites.
-* Manage a culinary blog, with articles and associated themes.
-* Create, edit and delete recipes and articles.
-* Download recipes in PDF format.
-* Authenticate with Google or email via Clerk
+#### The game currently includes :
 
+* Pacman movement with wall collision management.
+* Display of a playable map.
+* Integration of enemies.
+  
 ---
 
 ### ⚙️ Technologies Used
 
-* __[Next.js](https://nextjs.org/)__:  React framework for server-side rendering and static rendering.
-* __[TypeScript](https://www.typescriptlang.org/)__:  A strongly typed programming language that builds on JavaScript.
-* __[Prisma ORM](https://www.prisma.io/)__:  For database management and interactions with MongoDB.
-* __[MongoDB](https://www.mongodb.com/fr-fr)__:  A NoSQL database for storing recipes, articles, and so on.
-* __[Clerk](https://clerk.com/)__:  For user authentication and authorization management.
-* __[Swiper React](https://swiperjs.com/react)__:  For carousel showcasing recipes.
-* __[HeadlessUI](https://headlessui.com/)__:  For UI components.
-* __[TailwindCSS](https://tailwindcss.com/)__:  A utility-first CSS framework for rapidly building modern websites. 
-* __[jsPDF](https://artskydj.github.io/jsPDF/docs/jsPDF.html)__:  For PDF generation.
+* __[C#](https://learn.microsoft.com/fr-fr/dotnet/csharp/)__:  Main programming language.
+* __[MonoGame](https://monogame.net/)__: 2D and 3D game development framework.
+* __[.NET SDK](https://dotnet.microsoft.com/en-us/)__:  Required to run the project and use .NET commands
 
 ---
 
