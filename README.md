@@ -1,12 +1,12 @@
 ![](/banner-pacman.png)
 
-<h1 align="center">PAC-MAN</h1>
+<h1 align="center">🕹️ PAC-MAN</h1>
 
 <br/>
 
 ### 📃 Description
 
-__Pacman__ is a recreation of the famous Pacman game using __MonoGame__ and C#. This project explores the features of the MonoGame engine for creating a 2D game.
+__Pacman__ is a replication of the famous Pacman game using __MonoGame__ and C#. This project explores the features of the MonoGame engine for creating a 2D game.
 
 #### The game currently includes :
 
@@ -88,7 +88,7 @@ Run with automatic reload:
 dotnet watch run
 ```
 
-#### Upcoming features:
+### 🔜 Upcoming features:
 
 * Score system.
 
