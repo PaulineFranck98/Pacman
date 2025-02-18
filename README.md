@@ -1,6 +1,6 @@
 ![](/banner-pacman.png)
 
-<h1 align="center">🕹️ PAC-MAN</h1>
+<h1 align="center">PAC-MAN</h1>
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -10,7 +10,7 @@
 
 <br/>
 
-### 📃 Description
+### 🕹️ Description
 
 __Pacman__ is a replication of the famous Pac-Man game using __MonoGame__ and C#. This project explores the features of the MonoGame engine for creating a 2D game.
 
