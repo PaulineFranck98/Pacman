@@ -36,7 +36,7 @@ project-root
 ├── Content           /* Graphics and audio resources */
 ├── Core              /* Contains game logic */
 │ ├── Collision.cs    /* Collision management */
-│ ├── Enemies.cs      /* Enemy behavior management */
+│ ├── Enemies.cs      /* Enemies behavior management */
 │ ├── GameObject.cs   /* Game's objects management */
 │ ├── Player.cs       /* Pacman behavior management */
 │ └── World.cs        /* Map management */
