@@ -2,6 +2,12 @@
 
 <h1 align="center">🕹️ PAC-MAN</h1>
 
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cs,dotnet,rider" />
+  </a
+</p>
+
 <br/>
 
 ### 📃 Description
