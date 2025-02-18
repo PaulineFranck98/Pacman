@@ -32,7 +32,7 @@ project-root
 │ ├── Collision.cs    /* Collision management */
 │ ├── Enemies.cs      /* Enemy behavior management */
 │ ├── GameObject.cs   /* Game's objects management */
-│ ├── Player.cs       /* Pac-Man behaviour management */
+│ ├── Player.cs       /* Pacman behavior management */
 │ └── World.cs        /* Map management */
 ├── Game1.cs          /* Game main class */
 └──  Program.cs       /* Application entry point */
