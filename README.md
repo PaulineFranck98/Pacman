@@ -51,7 +51,7 @@ __Rider / VSCode__ (or another IDE compatible with C# and .NET)
 
 ---
 
-### 💻 Running locally in development mode
+### 💻 Installation and running
 
 
 #### 1. __Clone the projet:__
