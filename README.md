@@ -6,7 +6,7 @@
 
 ### 📃 Description
 
-__Pacman__ is a replication of the famous Pacman game using __MonoGame__ and C#. This project explores the features of the MonoGame engine for creating a 2D game.
+__Pacman__ is a replication of the famous Pac-Man game using __MonoGame__ and C#. This project explores the features of the MonoGame engine for creating a 2D game.
 
 #### The game currently includes :
 
